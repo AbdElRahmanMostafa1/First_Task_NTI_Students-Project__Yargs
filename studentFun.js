@@ -5,7 +5,7 @@ const addStd = (id, name, grades, comment) => {
   const allStudents = loadStudents();
   let sum = 0;
   grades.forEach((deg) => (sum += deg));
-  const totalGrades = grades.reduce((a, b) => a + b);
+  // const totalGrades = grades.reduce((a, b) => a + b);
   allStudents.push({
     id,
     name,
